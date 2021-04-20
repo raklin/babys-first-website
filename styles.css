@@ -17,13 +17,24 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  padding: 30px 15%;
 }
 
 .navigation {
 
 }
 
-.projects {
-
+.content {
+  padding: 30px 15%;
 }
 
+.projects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 300px;
+}

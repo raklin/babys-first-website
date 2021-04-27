@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "scripts": {
+      "build": "gulp clean && gulp build"
+    },
+    "devDependencies": {
+      "del": "^6.0.0",
+      "gulp": "^4.0.2",
+      "gulp-autoprefixer": "^7.0.1",
+      "gulp-csso": "^4.0.1",
+      "gulp-htmlmin": "^5.0.1",
+      "gulp-uglify-es": "^2.0.0"
+    }
+  }
